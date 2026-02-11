@@ -4,7 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ARC Exchange</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <style>
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #1e1e2f, #111);
+}
+
+.hero h1 {
+    font-size: 36px;        /* smaller, professional size */
+    font-weight: 700;        /* bold for emphasis */
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    font-size: 18px;        /* readable but smaller than h1 */
+    line-height: 1.5;
+    color: #ccc;            /* slightly lighter for contrast */
+    margin-bottom: 10px;
+}
+
+.hero-subtext {
+    font-size: 16px;
+    color: #aaa;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -125,9 +155,13 @@ footer {
 </nav>
 
 <section class="hero" id="home">
-<h1>Premium ARC Raiders Gear Marketplace
-Browse verified items with confidence. All products are Tier 4, at maximum durability, and sold by a trusted seller.</h1>
-<p>Browse exclusive gear listings. Contact us via email to order.</p>
+  <h1>Premium ARC Raiders Gear Marketplace</h1>
+  <p class="hero-description">
+    Browse verified items with confidence. All products are Tier 4, at maximum durability, and sold by a trusted seller.
+  </p>
+  <p class="hero-subtext">
+    Explore our listings and contact us directly via email to order your gear.
+  </p>
 </section>
 
 <section class="container" id="shop">
