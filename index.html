@@ -33,9 +33,6 @@ nav {
     text-align: center;
     padding: 10px;
     background: #1c1c28;
-    position: sticky;
-    top: 0;
-    z-index: 100;
 }
 
 nav a {
@@ -43,10 +40,6 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-}
-
-nav a:hover {
-    color: #4dd0ff;
 }
 
 .hero {
@@ -65,13 +58,6 @@ nav a:hover {
     margin: auto;
 }
 
-.section-light {
-    background: #1a1a25;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -83,12 +69,6 @@ nav a:hover {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.product:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(77, 208, 255, 0.5);
 }
 
 .product img {
@@ -98,16 +78,16 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.product-description {
+    font-size: 14px;
+    color: #ccc;
+    margin: 10px 0;
+}
+
 .price {
     margin: 10px 0;
     font-size: 18px;
     color: #4dd0ff;
-}
-
-.product-description {
-    font-size: 14px;
-    color: #ccc;
-    margin-bottom: 10px;
 }
 
 .button {
@@ -118,11 +98,6 @@ nav a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    transition: background 0.2s;
-}
-
-.button:hover {
-    background: #38b0d2;
 }
 
 footer {
@@ -131,7 +106,6 @@ footer {
     background: #151520;
     margin-top: 40px;
     font-size: 14px;
-    color: #ccc;
 }
 </style>
 </head>
@@ -152,55 +126,119 @@ footer {
 
 <section class="hero" id="home">
 <h1>Premium ARC Raiders Gear Marketplace</h1>
-<p>Browse verified items with confidence. All products are Tier 4, at maximum durability, and sold by a trusted seller.</p>
+<p>Browse exclusive gear listings. Contact us via email to order.</p>
 </section>
 
-<section class="container section-light" id="shop">
+<section class="container" id="shop">
 <h2>Shop Gear</h2>
 <div class="products">
 
-<!-- Example Product -->
+<!-- 10 Products -->
+
 <div class="product">
-<img src="images/bobcat.png" alt="Bobcat Gear">
-<h3>Bobcat Blaster</h3>
-<p class="product-description">Tier 4, max durability, no attachments. Price listed in CAD.</p>
-<p class="price">$120 CAD</p>
-<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Bobcat Blaster">Contact to Order</a>
+<img src="images/money.png" alt="Vulcano Item">
+<h3>Per 1M (up to 10M then $3ea)</h3>
+<p class="product-description">Currency packs for ARC Raiders. Maximum reliability, priced in CAD.</p>
+<p class="price">$4 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Raider Tactical Helmet">Contact to Order</a>
 </div>
 
 <div class="product">
-<img src="images/vulcano.png" alt="Vulcano Gear">
-<h3>Vulcano Blaster</h3>
-<p class="product-description">Tier 4, max durability, no attachments. Price listed in CAD.</p>
-<p class="price">$150 CAD</p>
-<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Vulcano Blaster">Contact to Order</a>
+<img src="images/toro.png" alt="Vulcano Item">
+<h3>Tor 4</h3>
+<p class="product-description">Tier 4 ARC Raider weapon. Maximum durability, no attachments included.</p>
+<p class="price">$3 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order ARC Combat Vest">Contact to Order</a>
 </div>
 
-<!-- Add more products below in the same format -->
+<div class="product">
+<img src="images/venator.png" alt="Vulcano Item">
+<h3>Venator 4</h3>
+<p class="product-description">Tier 4 weapon with full durability. Clean, unmodified item.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Raider Utility Pack">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/snaphook.png" alt="Raider Item">
+<h3>Snap Hook</h3>
+<p class="product-description">High-quality Tier 4 snap hook. Delivered at max durability.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order ARC Tactical Gloves">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/betina.png" alt="Vulcano Item">
+<h3>Betina 4</h3>
+<p class="product-description">Tier 4 gear, max durability, no attachments. Ready for use.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Raider Combat Boots">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/vulcano.png" alt="Raider Item">
+<h3>Vulcano 4</h3>
+<p class="product-description">Tier 4 ARC Raider weapon, maximum durability, no attachments included.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order ARC Recon Jacket">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/tempest.png" alt="Vulcano Item">
+<h3>Tempest 4</h3>
+<p class="product-description">Tier 4 item delivered at full durability. No extras attached.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Raider Utility Belt">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/bobcat.png" alt="Raider Item">
+<h3>Bobcat 4</h3>
+<p class="product-description">Max durability Tier 4 weapon. Sold as-is with no modifications.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order ARC Tactical Goggles">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/jupiter.png" alt="Vulcano Item">
+<h3>Jupiter</h3>
+<p class="product-description">Reliable Tier 4 item, max durability, clean and ready to use.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order Raider Arm Guard">Contact to Order</a>
+</div>
+
+<div class="product">
+<img src="images/aphelion.png" alt="Vulcano Item">
+<h3>Aphelion</h3>
+<p class="product-description">Tier 4 ARC Raiders item, delivered at maximum durability with no attachments.</p>
+<p class="price">$5 CAD</p>
+<a class="button" href="mailto:joshuabhickey@gmail.com?subject=Order ARC Field Kit">Contact to Order</a>
+</div>
 
 </div>
 </section>
 
-<section class="container section-light" id="about">
+<section class="container" id="about">
 <h2>About ARC Exchange</h2>
-<p>ARC Exchange is a trusted player-run marketplace for ARC Raiders gear. Our mission is to provide reliable listings, clear pricing, and a smooth buying experience for players seeking quality items.</p>
-<p>All items are carefully reviewed to ensure they meet our standards: Tier 4, maximum durability, no attachments. Buy with confidence from a verified seller.</p>
+<p>Welcome to ARC Exchange, a dedicated marketplace for ARC Raiders gear. Our goal is simple: provide reliable listings, clear pricing, and a smooth buying experience for players who want quality items without uncertainty or confusion.
+
+All items listed are priced in Canadian dollars and delivered at maximum durability. Unless otherwise specified, gear is Tier 4 and sold without attachments or modifications. Every listing is reviewed to ensure it matches the stated condition and description, so you know exactly what you’re getting.
+
+ARC Exchange is operated by a trusted seller committed to honest communication and dependable transactions. We focus on transparency, consistency, and building long-term trust within the ARC Raiders community. Payment in e-transfer or PayPal.</p>
 </section>
 
-<section class="container section-light" id="contact">
+<section class="container" id="contact">
 <h2>Contact</h2>
-<p>Click "Contact to Order" on any product or email us directly:</p>
+<p>Typical response will be within 24 hours and you can message us directly at:</p>
 <p><strong>joshuabhickey@gmail.com</strong></p>
-<p>Responses typically within 24 hours.</p>
 </section>
 
 <footer>
-© 2026 ARC Exchange | All Rights Reserved | ARC Exchange is not affiliated with Embark Studios or ARC Raiders.
+© 2026 ARC Exchange | All Rights Reserved
 </footer>
 
 </body>
 </html>
-
 
 
 
